@@ -1,0 +1,70 @@
+body {
+    background-color: #fff3c8;
+    font-family: 'Square Peg', cursive;
+}
+
+
+
+
+.cone-item div {
+    position: relative;
+    transition: all .1s ease;
+    cursor: pointer;
+}
+.cone-item div:hover {
+    transform: translateY(-3px);
+    outline: 1px solid white;
+}
+.cone-item img{
+    height: 10em;
+    width: 100%;
+    object-fit: center;
+    object-position: center;
+}
+.cone-name{
+    position: absolute;
+    bottom: 0;
+}
+
+.flavor-name{
+    position: absolute;
+    bottom: 0;
+}
+
+.toppings-name{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.price {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.toppings div {
+    position: relative;
+    transition: all .1s ease;
+    cursor: pointer; 
+}
+
+.flavors div{
+    position: relative;
+    transition: all .1s ease;
+    cursor: pointer; 
+}
+
+.flavors img{
+    height: 10em;
+    width: 100%;
+    object-fit: center;
+    object-position: center;
+}
+
+.toppings img{
+    height: 5em;
+    width: 100%;
+    object-fit: center;
+    object-position: center;
+}
